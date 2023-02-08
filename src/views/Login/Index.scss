@@ -1,0 +1,54 @@
+.sign-in-form {
+  flex: 2 1;
+  align-self: center;
+  width: 280px;
+
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    .welcome-text {
+      font-size: 1.8em;
+    }
+    .welcome-user {
+      font-size: 3em;
+    }
+  }
+  .loading-text {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .loading {
+    margin: 1em auto 0 auto;
+  }
+  .field {
+    margin-bottom: 16px;
+  }
+  .btn {
+    width: 100%;
+  }
+  input:not([type='checkbox']) {
+    background: #181818;
+    border-color: #767676;
+    color: #f2f2f2;
+    font-weight: 300;
+    width: 100%;
+  }
+  label {
+    color: #f2f2f2;
+  }
+}
+
+.form-element {
+  width: 100%;
+}
+.eds-form .form-body {
+  margin-bottom: 0!important;
+}
+.signin .footer {
+  position: static!important;
+  //margin-top: 60px!important;
+  //margin-bottom: 30px!important;
+  //flex: 0 0 60px!important;
+}

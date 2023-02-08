@@ -1,0 +1,41 @@
+#root {
+  height: 100%;
+}
+.light .appcontent {
+  background: #FAFAFA;
+  padding: 100px;
+}
+.dark .appcontent {
+  background: #2a2a2a;
+  padding: 100px;
+}
+.dark input, .dark textarea {
+  background: inherit;
+}
+.form-item{
+  margin-bottom: 20px;
+  input {
+    width: 320px;
+  }
+}
+.react-ip-input input {
+  width: 50px!important;
+}
+.light .eds-form, .dark .eds-form {
+  .form-body, .form-footer {
+    margin: 0!important;
+  }
+
+}
+.eds-form input[type=password] {
+  max-width: none!important;
+}
+main .appcontent {
+  margin: 0!important;
+}
+.tree ul ul li .item {
+  padding-left: 60px!important;
+}
+.tree>ul>a {
+  padding-left: 46px!important;
+}
